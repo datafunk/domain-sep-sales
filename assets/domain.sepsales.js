@@ -133,6 +133,8 @@ $.ajax({
 
 function validateGeoJson(data) {
 
+    console.log(data);
+
     function processSuccess(data) {
         if (data.status === 'ok') {
             alert('You just posted some valid GeoJSON!');
