@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- description: 150 - 175 characters -->
+    <meta name="description" content="Domain Spring property Sales Forecast">
+    <!-- <meta name="news_keywords" content="" /> -->
+    <meta name="keywords" content="Domain Spring property Sales Forecast">
+    <meta name="author" content="Fairfax APM">
+    <meta name="web_author" content="Peter Borbely @datafunk">
+    <title>Where rents are rising and falling - domain.com.au</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" type="text/css" href="/interactive/2014/domain-sep-sales/assets/domain.sepsales.css?v=0.1">
+    <link rel="stylesheet" type="text/css" href="/interactive/libraries/jquery/plugins/select2/select2.min.css">
+
+    <style>
+        
+        @media (max-width: 619px) {
+            #map_canvas { width:100%; height:200px; }
+        }
+
+        @media (min-width: 620px) {
+            #map_canvas { width:620px; height:450px; }
+        }
+        
+    </style>
+
+</head>
+<!--[if lt IE 7]>  <body class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>     <body class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>     <body class="ie ie8 lte9 lte8">      <![endif]-->
+<!--[if IE 9]>     <body class="ie ie9 lte9">           <![endif]-->
+<!--[if gt IE 9]>  <body class="ie">                    <![endif]-->
+<!--[if !IE]><!--> <body>                              <!--<![endif]-->
+    <div id="app_wrap">
+        <div id="app_header">
+            <h1>September house and apartment sales</h1>
+        </div>
+
+        <div id="form">
+            <select id="ur_sub">
+                <option value="select">Type your suburb name</option>
+            </select>
+        </div>
+
+        <div id="map_canvas"></div>
+
+        <div class="legend">
+            <fieldset>
+                <legend id="data_col_1">Suburb</legend>
+                <table id="summary_tbl">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>Median sale price</th>
+                            <th>% change</th>
+                        </tr>
+                    </thead>
+                    <tbody>    
+                        <tr>
+                            <th id="houses" class="active"></th>
+                            <td id="data_col_2"></td>
+                            <td id="data_col_3"></td>
+                        </tr>
+                        <tr>
+                            <th id="units" class=""></th>
+                            <td id="data_col_4"></td>
+                            <td id="data_col_5"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <!-- <table id="keys2map"></table> -->
+
+        </div>    
+        <!-- // END div.legend -->
+
+            <table class="legend" >
+                <tr>
+                    <th colspan="6" style="text-align:left">Home sale rate changes September 2013 - 2014</th>
+                </tr>
+                <tr id="keys2map"></tr>        
+                <tr>
+                    <td colspan="6" style="text-align:left">
+                        N/A = Suburb with too few sales <br />
+                        Source: The Domain Group <br />
+                        Map by <a href="http://twitter.com/datafunk">@datafunk</a>
+                    </td>
+                </tr>            
+            </table>
+
+
+
+
+    </div>
+    <!-- // END #app_wrap -->
+
+<script type="text/javascript" src="/interactive/libraries/jquery/fd_min.js"></script>
+<script type="text/javascript" src="/interactive/libraries/jquery/plugins/select2/select2.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?client=gme-fairfax&amp;sensor=false&amp;v=3.17&amp;channel=sep-sales"></script> 
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;v=3.17"></script> -->
+<script src="/interactive/2014/domain-sep-sales/assets/domain.sepsales.js?v=0.1"></script>
+
+<script type="text/javascript">
+    // Set page specific tracking variables. 
+    var bp_section  = 'business';   // section name
+    var bp_subsctn  = 'domain';     // sub section name - if applicable
+    var bp_byline   = 'Domain';        // Byline
+</script>
+<!-- 2. Include Nielsen script 
+<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js"></script>
+-->
+<!-- 3. Include ffx.interactives.tracking.x.xx.min.js -->
+<!-- <script type="text/javascript" src="/interactive/libraries/snippets/ffx.interactives.tracking.1.04.min.js"></script> -->
+
+
+</body>
+</html>

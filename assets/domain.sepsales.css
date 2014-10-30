@@ -1,0 +1,375 @@
+html, body {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+@media (max-width: 619px) {
+
+    #app_wrap {
+        width: 100%;
+        text-align:center;
+        margin:0px auto 30px;
+        border:1px solid #eee;
+        background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OTlCM0EyN0VERDgxMUUyOThFODk0NTUwMjRGREFDRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OTlCM0EyOEVERDgxMUUyOThFODk0NTUwMjRGREFDRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY5OUIzQTI1RUREODExRTI5OEU4OTQ1NTAyNEZEQUNEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY5OUIzQTI2RUREODExRTI5OEU4OTQ1NTAyNEZEQUNEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KO8AhQAAADtJREFUeNpi/P//PwMhwMjIKMMAUogPA4EMAxGARopw+QPDJGwKsVqHrhCnm5AV4nU4TCFB34EUAgQYAAaLLfDiax9FAAAAAElFTkSuQmCC') 0 0;
+        font-family: Arial, 'Sans-serif';
+        letter-spacing: 1px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    div#app_header {
+        width: 100%;
+        height: 90px;
+        text-align: right;
+        margin: 0;
+        background-color: #4ba000;
+        background: #4ba000 url(/interactive/2014/domain-sep-sales/assets/domain_header_195x40.png) no-repeat 2px 2px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    div#app_header h1 {
+        margin: 0 0 0 auto;
+        padding: 6px 8px 0 0;
+        font-weight: 400;
+        letter-spacing: 3px;
+        font-size: 18px;
+        width: -moz-calc(100% - 180px);
+    width: -webkit-calc(100% - 180px);
+    width: calc(100% - 180px);
+    }
+
+    #app_wrap div.legend {
+        width: 95%;
+        /*height: 110px;*/
+        text-align:left;
+        margin-bottom: 30px;
+    }
+
+    #app_wrap fieldset {
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: white;
+        margin: 10px 0 0 10px;
+    }
+
+    #app_wrap fieldset legend {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    .legend fieldset {
+        display:none;
+    }
+
+    div.legend .intro {
+        font-size: 12px;
+        padding: 0 20px 10px;
+    }
+
+    /*#keys2map*/ 
+    table.legend {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #app_wrap fieldset legend {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    #app_wrap fieldset table {
+        font-size:12px;
+    }
+
+    #app_wrap table {
+        font-size: 11px;
+        text-align: left
+    }    
+
+    td.mapKey {
+        min-width: 24px;
+        width: 24px;
+        height: 20px;
+        max-width: 34px;
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+        vertical-align: middle;
+        text-align: center;
+        word-wrap: break-word;
+        border: 1px solid rgb(221, 221, 221);
+        background-color: rgb(255, 255, 255);
+        word-wrap: break-word;
+    }
+
+    
+    td.mapKey:nth-child(5),
+    td.mapKey:nth-child(6){
+        color:white;
+    }
+
+    td.mapKey.numbers {
+        color:black;
+    }
+
+    th#houses {
+        background: transparent url(/interactive/2014/domain-sep-sales/assets/icons.png) 6px 6px no-repeat;
+        height:30px;
+        width:60px;
+    }
+
+    th#units {
+        background: transparent url(/interactive/2014/domain-sep-sales/assets/icons.png) 6px -30px no-repeat;
+        height:30px;
+        width:60px;
+    }    
+
+    /* select2 */
+    div#form {
+        width: 100%;
+        text-align: center;
+        margin: 12px auto;
+        background-color: transparent;
+        background-image: url(/interactive/2014/domain-sep-sales/assets/horizontal-loading-grey.gif);
+        background-repeat: no-repeat;
+        background-position: 50% 3px;    
+    }
+
+    body:not(.ie) select#ur_sub {
+        opacity:0;
+    }
+
+    body.ie select#ur_sub {
+        margin: 0px auto 10px;
+        width:90%;
+    }
+
+    .select2-search,
+    .select2-results {
+        font-family:Arial, 'Sans-serif';
+    }
+
+    .select2-drop-mask,
+    .select2-container,
+    .select2-container-active {
+        width:90% !important;
+        height:auto;
+        font-family:Arial, 'Sans-serif';
+    }
+
+}
+
+
+
+
+
+@media (min-width: 620px) {
+
+    #app_wrap {
+        width: 620px;
+        text-align:left;
+        margin:0 auto;
+        /*border: 1px solid grey;*/
+        background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OTlCM0EyN0VERDgxMUUyOThFODk0NTUwMjRGREFDRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OTlCM0EyOEVERDgxMUUyOThFODk0NTUwMjRGREFDRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY5OUIzQTI1RUREODExRTI5OEU4OTQ1NTAyNEZEQUNEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY5OUIzQTI2RUREODExRTI5OEU4OTQ1NTAyNEZEQUNEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KO8AhQAAADtJREFUeNpi/P//PwMhwMjIKMMAUogPA4EMAxGARopw+QPDJGwKsVqHrhCnm5AV4nU4TCFB34EUAgQYAAaLLfDiax9FAAAAAElFTkSuQmCC') 0 0;
+        font-family: Arial, 'Sans-serif';
+        letter-spacing: 1px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    div#app_header {
+        width: 100%;
+        height: 50px;
+        text-align: right;
+        margin: 0;
+        background-color: #4ba000;
+        background: #4ba000 url(/interactive/2014/domain-sep-sales/assets/domain_header_195x40.png) no-repeat 2px 2px;
+        color: rgb(255, 255, 255);
+    }
+
+    div#app_header h1 {
+        margin: 0 0 0 auto;
+        padding: 15px 6px 0 0;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    #app_wrap div.legend {
+        width: 272px;
+        /*height: 110px;*/
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #app_wrap fieldset {
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: white;
+        margin: 10px 0 20px 10px;
+    }
+
+    #app_wrap fieldset legend {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    #app_wrap fieldset table {
+        font-size:14px;
+    }
+
+    #app_wrap table {
+        font-size: 11px;
+    }
+
+    .legend p {
+        padding:16px 10px 5px 20px;
+    }
+
+
+    .legend fieldset {
+        display:none;
+    }
+
+    /*#keys2map*/ 
+    table.legend {
+        margin: 16px 0 0;
+        width: 300px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    table.legend a {
+        text-decoration: none;
+    }
+
+
+    td.mapKey {
+        min-width: 40px;
+        /*width: 44px;*/
+        height: 20px;
+        width: 50px;
+        font-size: 10px;
+        color:black;
+        vertical-align: middle;
+        text-align: center;
+        word-wrap: break-word;
+        border: 1px solid #ddd;
+        background-color: white;
+    }
+
+    td.mapKey:nth-child(5),
+    td.mapKey:nth-child(6){
+        color:white;
+    }
+
+    td.mapKey.numbers {
+        color:black;
+    }
+
+    /* select2 */
+    div#form {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+        background-color: transparent;
+        background-image: url(/interactive/2014/domain-sep-sales/assets/horizontal-loading-grey.gif);
+        background-repeat: no-repeat;
+        background-position: 50% 3px;    
+    }
+
+    body:not(.ie) select#ur_sub {
+        opacity:0;
+    }
+
+    body.ie select#ur_sub {
+        margin: 0px auto 10px;
+        width:90%;
+    }
+
+    .select2-search,
+    .select2-results {
+        font-family:Arial, 'Sans-serif';
+    }
+
+    .select2-drop-mask,
+    .select2-container,
+    .select2-container-active {
+        width:600px !important;
+        height:auto;
+        font-family:Arial, 'Sans-serif';
+    }
+
+    /* google hacks */
+    .gm-style-iw {
+        /*overflow: visible;*/
+        /*overflow: inherit;*/
+        /*min-width: 300px;*/
+        width: auto !important;
+        overflow:visible;
+    }
+
+    .gm-style-iw div {
+        overflow:visible !important;
+    }
+
+    table#summary_tbl {
+        /*display:none;*/
+        /*width:260px;*/
+        margin:10px auto;
+        vertical-align: top;
+        color: #012F53;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        border-collapse: collapse;
+        padding: 5px;
+        /*border:1px solid red;*/
+    }
+
+    tr {
+        /*border-bottom:3px solid #ddd;*/
+    }
+
+    tr:last-of-type {
+        border:none;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    td {
+        font-weight:900;
+        text-align: center;
+    }
+
+    th#houses {
+        background: transparent url(/interactive/2014/domain-sep-sales/assets/icons.png) 6px 6px no-repeat;
+        height:30px;
+        width:36px;
+    }
+
+    th#units {
+        background: transparent url(/interactive/2014/domain-sep-sales/assets/icons.png) 6px -30px no-repeat;
+        height:30px;
+        width:36px;
+    }
+
+    #data_col_1 {
+        font-weight:900 !important;
+        text-transform: uppercase;
+    }
+
+    p.credits { font-size: 11px; color: #ddd;text-align: center;}
+
+
+}
