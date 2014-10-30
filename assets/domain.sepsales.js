@@ -72,7 +72,7 @@ var data_collection = {
         "city_zoom": 11,
         "city_zoom_min": 10,
         "city_zoom_max": 16,
-        "data_src": "ACT-sales-sep2014_3.1.min.geojson"
+        "data_src": "ACT-sales-sep2014_4.0.min.geojson"
     },
 }
 
